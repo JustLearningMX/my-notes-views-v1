@@ -29,6 +29,8 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Update browserslist
+        run: npx update-browserslist-db@latest
       - name: Build
         run: npm run build
         env:
@@ -39,15 +41,15 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './build'
           name: github-pages
       - name: List build output
-        run: ls -al ./dist
-      - name: Upload dist artifact
+        run: ls -al ./build
+      - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: build
+          path: build
 
   deploy:
     needs: build
@@ -58,11 +60,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Download dist artifact
+      - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: build
+          path: build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
