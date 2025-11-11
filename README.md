@@ -43,11 +43,11 @@ git clone https://github.com/JustLearningMX/my-notes-views-v1.git
 
 ## Demo 👨‍💻
 
-- **Application Demo** on Heroku: [ny-notes-app](https://my-notes-app-1673bce910ea.herokuapp.com/)
+- **Application Demo** on Github Pages: [ny-notes-app](https://justlearningmx.github.io/my-notes-views-v1/)
 
 ## Backend 🖥️
 
-Heroku: [notes-app-api](https://notes-app-api-1d668731c17b.herokuapp.com//swagger-ui/index.html)
+Private VM in OCI: [notes-app-api](https://notes-app-api-1d668731c17b.herokuapp.com//swagger-ui/index.html)
 
 ## Author ✒️
 

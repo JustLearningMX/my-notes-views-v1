@@ -34,7 +34,6 @@ export async function requestApi(path, req, arrBody, token) {
       body: JSON.stringify(body),
       headers: new Headers({
         "Content-Type": "application/json; charset=utf-8",
-        // "Access-Control-Allow-Origin": "*",
         "Authorization": token,
       }),
     }); 
@@ -51,7 +50,6 @@ export async function requestApi(path, req, arrBody, token) {
       body: JSON.stringify(body),
       headers: new Headers({
         "Content-Type": "application/json; charset=utf-8",
-        // "Access-Control-Allow-Origin": "*",
         "Authorization": token,
       }),
     }); 
@@ -66,7 +64,6 @@ export async function requestApi(path, req, arrBody, token) {
       method: req, //tipo de petición
       headers: new Headers({
         "Content-Type": "application/json; charset=utf-8",
-        // "Access-Control-Allow-Origin": "*",
         "Authorization": token,
       }),
     }); 
