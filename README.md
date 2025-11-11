@@ -27,15 +27,11 @@ The stack use to develop and deploy this project is:
 
 Clone the repo:
 ```bash
-git clone https://github.com/ElianaPranzetti/githubJustLearningMX-ensolvers-challenge.git
+git clone https://github.com/JustLearningMX/my-notes-views-v1.git
 ```
 
 ### Pre-requisites 📋
 
-* Go to dir `/frontend`
-  ```bash
-    cd fronted
-    ```
 * Execute
   ```bash
   npm install

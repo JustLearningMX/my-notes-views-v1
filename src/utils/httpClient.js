@@ -4,8 +4,8 @@
 //función asíncrona
 export async function requestApi(path, req, arrBody, token) {
 
-  // const API = "https://misnotas-api-02abe3439d68.herokuapp.com"; //Base de la API a consumir
-  const API = "http://localhost:8080";
+  const API = "https://hiram-oci-mty.duckdns.org/my-notes-api-v1/v1"; //Base de la API a consumir
+  // const API = "http://localhost:8080";
 
   const body = (req === "POST" || req === "PUT") ? arrBody : {};
 
