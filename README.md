@@ -47,7 +47,7 @@ git clone https://github.com/JustLearningMX/my-notes-views-v1.git
 
 ## Backend 🖥️
 
-Private VM in OCI: [notes-app-api](https://notes-app-api-1d668731c17b.herokuapp.com//swagger-ui/index.html)
+Private VM in OCI: [notes-app-api](https://hiram-oci-mty.duckdns.org/my-notes-api-v1/v1/swagger-ui/index.html)
 
 ## Author ✒️
 
