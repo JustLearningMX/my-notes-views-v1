@@ -1,0 +1,38 @@
+.header {
+    grid-area: header;
+    padding: 1rem;
+    display: flex;
+    color: var(--second-text-color);
+    background-color: var(--second-bg-color);
+}
+
+.header__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.header__nabvar {
+    width: 60%;
+}
+
+.header__nabvar_menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.nav_link:hover,
+.nav_link_active {
+    color: var(--second-text-color);
+    font-weight: 500;
+    transition: 0.1s;
+    text-decoration: underline;
+}

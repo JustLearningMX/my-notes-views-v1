@@ -1,0 +1,18 @@
+.footer {
+    grid-area: footer;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    gap: 1rem;
+    background-color: var(--bg_footer);
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--second-bg-color);
+}
