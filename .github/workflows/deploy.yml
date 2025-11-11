@@ -31,7 +31,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-#        env:
+        env:
+          CI: false
 #          VITE_API_MOVIES_DB_TOKEN: ${{ secrets.VITE_API_MOVIES_DB_TOKEN }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
